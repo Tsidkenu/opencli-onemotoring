@@ -1,6 +1,6 @@
 # OpenCLI OneMotoring Adapter
 
-OpenCLI adapter for querying public OneMotoring road tax expiry information by Vincent Lau.
+OpenCLI plugin for OneMotoring road tax enquiry and vehicle classification by Vincent Lau.
 
 ## Requirements
 

@@ -6,12 +6,9 @@
   "private": true,
 
   "files": [
-    "clis"
+    "plugins",
+    "opencli-plugin.json"
   ],
-
-  "exports": {
-    "./clis/*": "./clis/*"
-  },
 
   "keywords": [
     "opencli",
@@ -26,7 +23,7 @@
   },
 
   "engines": {
-    "node": ">=18"
+    "node": ">=22"
   },
 
   "repository": {

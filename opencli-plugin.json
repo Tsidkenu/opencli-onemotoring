@@ -1,0 +1,6 @@
+{
+  "name": "onemotoring",
+  "version": "0.2.0",
+  "opencli": ">=1.0.0",
+  "description": "OpenCLI plugin for OneMotoring road tax enquiry and vehicle classification"
+}
