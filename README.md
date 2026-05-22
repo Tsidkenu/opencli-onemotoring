@@ -36,10 +36,19 @@ opencli plugin install github:Tsidkenu/opencli-onemotoring
 
 ## Usage
 
+Pass the license plate info to enquire the vehicle registration with OneMotoring.
 ```bash
 opencli onemotoring roadtax SXX1234A -f json
 ```
-If you just want to see it as a table in CLI, remove the -f json flag.
+If it is valid, you will get the road tax expiry date and the vehicle make.
+
+You can then use the vehicle make to check what kind of vehicle it is from Google.
+```bash
+opencli onemotoring istippertruck "MITSUBISHI / FUSO FV51SJD2DEA" -f json
+```
+If the results confidence is high, then is_tipper_truck will be true.
+
+To see the results as a table in CLI, remove the -f json flag.
 
 ## Notes
 
