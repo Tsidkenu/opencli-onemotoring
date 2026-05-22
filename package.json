@@ -1,0 +1,14 @@
+{
+  "name": "opencli-onemotoring",
+  "version": "0.1.0",
+  "description": "OpenCLI adapter for OneMotoring road tax enquiry",
+  "author": "Vincent Lau",
+  "type": "module",
+  "private": true,
+  "files": [
+    "clis"
+  ],
+  "peerDependencies": {
+    "@jackwener/opencli": "*"
+  }
+}
