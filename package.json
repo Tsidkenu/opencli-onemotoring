@@ -1,14 +1,36 @@
 {
   "name": "opencli-onemotoring",
-  "version": "0.1.0",
-  "description": "OpenCLI adapter for OneMotoring road tax enquiry",
-  "author": "Vincent Lau",
+  "version": "0.2.0",
+  "description": "OpenCLI plugin for OneMotoring road tax enquiry and vehicle classification",
   "type": "module",
   "private": true,
+
   "files": [
     "clis"
   ],
+
+  "exports": {
+    "./clis/*": "./clis/*"
+  },
+
+  "keywords": [
+    "opencli",
+    "plugin",
+    "onemotoring",
+    "roadtax",
+    "tipper-truck"
+  ],
+
   "peerDependencies": {
     "@jackwener/opencli": "*"
+  },
+
+  "engines": {
+    "node": ">=18"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tsidkenu/opencli-onemotoring.git"
   }
 }
